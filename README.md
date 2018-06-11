@@ -44,3 +44,7 @@ curl -X POST -d "grant_type=password&username=bmika@icloud.com&password=123passw
 
 # Retrieve users
 curl -H "Authorization: Bearer eHTvXwfztswmrxAQCGEykUY75hJDvD" http://127.0.0.1:8000/users/
+
+
+# Step 6 - Refresh
+curl -X POST -d "grant_type=refresh_token&client_id=<your_client_id>&client_secret=<your_client_secret>&refresh_token=<your_refresh_token>" http://localhost:8000/o/token/
