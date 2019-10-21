@@ -6,7 +6,7 @@ django-environ==0.4.4
 django-filter==1.1.0
 django-oauth-toolkit==1.2.0
 django-starterkit==1.0.3
-djangorestframework==3.8.2
+djangorestframework==3.9.1
 gunicorn==19.8.1
 idna==2.6
 oauthlib==2.1.0
