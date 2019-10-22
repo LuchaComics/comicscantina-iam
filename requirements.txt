@@ -10,7 +10,7 @@ djangorestframework==3.8.2
 gunicorn==19.8.1
 idna==2.6
 oauthlib==2.1.0
-Pillow==5.1.0
+Pillow==6.2.0
 pytz==2018.4
 requests==2.18.4
 six==1.11.0
